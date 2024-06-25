@@ -1,0 +1,6 @@
+*.env
+env
+old
+/env
+/old
+__pycache__
