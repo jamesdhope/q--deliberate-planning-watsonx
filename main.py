@@ -3,7 +3,7 @@ from watsonx import expert_model, primary_model
 import numpy as np
 from sentence_transformers import SentenceTransformer, util
 
-question = "What do I need to do to retire as a millionaire?"
+question = "If you crash landed in the desert, what would be prioritised list of things you must do inorder to survive?"
 
 max_states_dropout = 10 # maximum number of states to explore before dropout
 top_k = 3 # maxumum number of actions to explore from the current state
