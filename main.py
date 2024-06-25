@@ -128,7 +128,7 @@ print(f'Running Q* with lamda: {_lambda}, max_states_dropout: {max_states_dropou
 while len(open_list) != 0 and no_states < max_states_dropout:
 
     no_states+=1
-    print(f'\nopen list {open_list}\n')
+    #print(f'\nopen list {open_list}\n')
 
     # SELECT the STATE S in the open list with the highest f-value
     state = max(open_list, key=lambda state: state['f_value']) 
